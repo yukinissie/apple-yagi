@@ -1,5 +1,5 @@
 ### Profile
-福岡工業大学　情報工学部　4年
+Web Engineer🚀
 
 ### GitHub stats
 [![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=apple-yagi)](https://github.com/anuraghazra/github-readme-stats)
