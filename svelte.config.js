@@ -11,7 +11,7 @@ const config = {
 		adapter: static_adapter(),
 
 		paths: {
-			base: '/apple-yagi',
+			base: process.env.NODE_ENV === 'production' ? '/apple-yagi' : ''
 		},
 
 		// hydrate the <div id="svelte"> element in src/app.html
