@@ -1,4 +1,8 @@
+/* Write your global styles here, in PostCSS syntax */
+
 @import '@fontsource/fira-mono';
+
+@tailwind base;
 
 :root {
 	font-family: Arial, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
@@ -16,16 +20,14 @@
 	--column-margin-top: 4rem;
 }
 
+* {
+	margin: 0;
+	padding: 0;
+}
+
 body {
 	min-height: 100vh;
 	margin: 0;
-	background-color: var(--primary-color);
-	background: linear-gradient(
-		180deg,
-		var(--primary-color) 0%,
-		var(--secondary-color) 10.45%,
-		var(--tertiary-color) 41.35%
-	);
 }
 
 body::before {
@@ -59,6 +61,10 @@ p {
 
 p {
 	line-height: 1.5;
+}
+
+li {
+	list-style: none;
 }
 
 a {
@@ -105,3 +111,7 @@ button:focus:not(:focus-visible) {
 		font-size: 2.4rem;
 	}
 }
+
+@tailwind components;
+
+@tailwind utilities;
